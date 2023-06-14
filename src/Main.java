@@ -3,29 +3,33 @@
 public class Main {
     public static void main(String[] args) {
 
-        boolean fimDeSemana = false;
-        boolean fazendoSol = true;
-        boolean vamosAPraia = fimDeSemana && fazendoSol;
+        int nota = 70;
 
-        // Tabela verdade
-        // Operador && (AND)
-        // true && true = true
-        // true && false = false
-        // false && true = false
-        // false && false = false
+        // se nota maior ou igual 70, então aprovado
+        // if-else
 
-        // Operador || (OR) alt+124
-        // true || true = true
-        // true || false = true
-        // false || true = true
-        // false || false = false
+        if (nota >= 70) {
+            System.out.println("Aluno Aprovado");
+        } else {
+            System.out.println("Aluno não aprovado");
+        }
 
-        System.out.println(vamosAPraia);
+        // A 80 B 70 C 60 D 0 GRADUAÇÕES
 
-        // operador ternário
+        if (nota >= 80) {
+            System.out.println(("Graduação A"));
+        } else if (nota < 80 && nota >= 70) {
+            System.out.println("Graduação B");
+        } else if (nota < 70 && nota >= 60) {
+            System.out.println("Graduação C");
+        } else if (nota <60 && nota >=0) {
+            System.out.println("Graduação D");
+        } else {
+            System.out.println("Nota Inválida!");
+        }
 
-        String mensagem = fimDeSemana ? "É fim de semana" : "Não é fim de semana";
-        System.out.println(mensagem);
+
+
 
     }
 }

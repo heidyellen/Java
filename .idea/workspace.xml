@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Operadores Aritimético">
+    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Algoritmo Praia - operadores booleanos And&amp;&amp; OR ||">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -73,22 +73,36 @@
       <option name="project" value="LOCAL" />
       <updated>1686708177630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Algoritmo Praia - operadores booleanos And&amp;&amp; OR ||">
+      <created>1686709566317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686709566317</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando Java" />
     <MESSAGE value="Data type" />
     <MESSAGE value="Operadores Aritimético" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operadores Aritimético" />
+    <MESSAGE value="Algoritmo Praia - operadores booleanos And(&amp;&amp;) OR(||)" />
+    <MESSAGE value="Algoritmo Praia - operadores booleanos And&amp;&amp; OR ||" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algoritmo Praia - operadores booleanos And&amp;&amp; OR ||" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>29</line>
+          <line>14</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
