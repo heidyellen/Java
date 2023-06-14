@@ -3,19 +3,29 @@
 public class Main {
     public static void main(String[] args) {
 
-        int a;
-        int b = 2;
-        a = 3;
-        int soma = a + b;
-        int subtracao = a - b;
-        int multiplicacao = a * b;
-        float divisao = (float) a / b;
+        boolean fimDeSemana = false;
+        boolean fazendoSol = true;
+        boolean vamosAPraia = fimDeSemana && fazendoSol;
 
-        System.out.println(soma);
-        System.out.println(subtracao);
-        System.out.println(multiplicacao);
-        System.out.println(divisao);
+        // Tabela verdade
+        // Operador && (AND)
+        // true && true = true
+        // true && false = false
+        // false && true = false
+        // false && false = false
 
+        // Operador || (OR) alt+124
+        // true || true = true
+        // true || false = true
+        // false || true = true
+        // false || false = false
+
+        System.out.println(vamosAPraia);
+
+        // operador ternário
+
+        String mensagem = fimDeSemana ? "É fim de semana" : "Não é fim de semana";
+        System.out.println(mensagem);
 
     }
 }
