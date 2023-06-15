@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Locale e TextStyle.Full">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Mensagem saudação">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686793660888</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mensagem saudação">
+      <created>1686794621457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686794621457</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -113,7 +119,8 @@
     <MESSAGE value="Else If" />
     <MESSAGE value="switch case" />
     <MESSAGE value="Locale e TextStyle.Full" />
-    <option name="LAST_COMMIT_MESSAGE" value="Locale e TextStyle.Full" />
+    <MESSAGE value="Mensagem saudação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mensagem saudação" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

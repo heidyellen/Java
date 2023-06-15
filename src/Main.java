@@ -5,33 +5,12 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-    //Olá, (nome)- Hoje é (dia-da-semana), Bom dia!
-        //
-     String nome = "Heidyellen";
- 
-       //ISO 8601
 
-        LocalDate hoje = LocalDate.now();
-        Locale brasil = new Locale("pt", "BR");
-        //Locale brasil = new Locale("pt", "BR");
-        System.out.println(hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil));
-        String diaSemana = hoje.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil);
-        String saudacao;
-        LocalDateTime agora = LocalDateTime.now();
-        if (agora.getHour() >=0 && agora.getHour() < 12){
-            saudacao = "Bom dia";
-        } else if (agora.getHour() >=12 && agora.getHour() <18) {
-            saudacao = "Boa tarde";
-        } else if (agora.getHour() >=18 && agora.getHour() <24) {
-            saudacao = "Boa noite";
-        } else {
-            saudacao = "";
+        // 1 2 3 4 5 6 7 8 9 10
+        // para uma variável que inicaia em 1 e vai até 10, mudando 1 por 1, faça
+        for (int i = 1; i<=50; i++){
+            System.out.println(i);
         }
-
-        System.out.printf("Olá, %s. Hoje é %s, %s.%n", nome, diaSemana, saudacao.toUpperCase());
-
-        // %s representar strings
-        // %n quebra de linha
 
     }
 }
