@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Arrays Media/Maior/Menor">
+    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Funções = Métodos (Java)">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686801401333</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Funções = Métodos (Java)">
+      <created>1686801997157</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686801997157</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,14 +183,15 @@
     <MESSAGE value="Arrays String com FOR" />
     <MESSAGE value="Arrays.toString" />
     <MESSAGE value="Arrays Media/Maior/Menor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays Media/Maior/Menor" />
+    <MESSAGE value="Funções = Métodos (Java)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funções = Métodos (Java)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>10</line>
+          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
