@@ -1,6 +1,7 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.TextStyle;
+import java.util.Arrays;
 import java.util.Locale;
 
 public class Main {
@@ -23,5 +24,7 @@ public class Main {
         for (int i = 0; i < letras.length; i++) {
             System.out.println(letras[i]);
         }
+
+        System.out.println(Arrays.toString(letras));
     }
 }
