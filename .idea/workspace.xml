@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Mensagem saudação">
+    <list default="true" id="cfaf6c61-8b7a-45a8-89f3-7706f19fdfbf" name="Changes" comment="Laços numéricos || repetições contadas&#10;FOR">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686794621457</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Laços numéricos || repetições contadas&#10;FOR">
+      <created>1686795023758</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686795023758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,7 +128,8 @@
     <MESSAGE value="switch case" />
     <MESSAGE value="Locale e TextStyle.Full" />
     <MESSAGE value="Mensagem saudação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mensagem saudação" />
+    <MESSAGE value="Laços numéricos || repetições contadas&#10;FOR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laços numéricos || repetições contadas&#10;FOR" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
