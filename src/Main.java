@@ -6,16 +6,23 @@ import java.util.Locale;
 public class Main {
     public static void main(String[] args) {
 
-        // 1 2 3 4 5 6 7 8 9 10
-        // para uma variável que inicaia em 1 e vai até 10, mudando 1 por 1, faça
-        for (int i = 1; i <= 10; i++) {
-            for (int j = 1; j <= 10; j++) {
-                System.out.println(j + "x" + i + " = " + j  * i);
+        int numero1 = 1;
+        int numero2 = 2;
+        int numero3 = 3;
+        int numero4 = 4;
+        int numero5 = 5;
 
-                //1*1 = 1
-                //2*2 = 2
-            }
+        int[] numeros = new int[5];
+        // [0] [1] [2] [3] [4]
 
+        numeros[0] = 1;
+        numeros[1] = 2;
+        numeros[2] = 3;
+        numeros[3] = 4;
+        numeros[4] = 5;
+        for (int i=0; i< numeros.length; i++) {
+
+            System.out.println(numeros[i]);
         }
     }
 }
